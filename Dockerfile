@@ -1,4 +1,5 @@
 FROM ubuntu
+MAINTANANCE "ravi"
 RUN apt insdtall
 ADD . /app
 ENV JABVA_HOme
