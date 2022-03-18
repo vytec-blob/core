@@ -6,4 +6,4 @@ ADD . /app
 ENV JABVA_HOme
 EXPOSE 5000
 CMD [java abc.java]
-
+ENTRYPOINT
